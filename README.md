@@ -17,7 +17,38 @@ dotfilesについては以下を参照。
 
 ### 管理対象
 
-- shell(fish)の設定
+- [shell(fish)の設定](#fish)
+- gitconfig
+
+## 設定メモ
+
+dotfilesで管理している項目の設定内容を記載する。
+
+### fish
+
+fishに加えて、fisherでプラグインを管理している。
+
+テーマは、`oh-my-fish/theme-bobthefish`をベースにカスタマイズしてある。
+
+fisherで管理しているプラグインは、パッケージ一覧である`fish_plugins`のみを管理している。
+
+fishのプラグインによる文字化け解消のため、Powerline Fontを入れている。
+
+```shell
+git clone https://github.com/powerline/fonts.git
+cd fonts
+./install.sh
+```
+
+インストール後、iterm2などのフォントをpower系に変更する。
+
+#### 参考文献
+
+<https://vlike-vlife.netlify.app/posts/dotfiles_fish_fisher>
+
+<https://zenn.dev/sawao/articles/0b40e80d151d6a>
+
+<https://nemoplus.hateblo.jp/entry/20090119/1232373540>
 
 ## 参考文献
 
