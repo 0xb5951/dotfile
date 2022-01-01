@@ -9,4 +9,4 @@ fish_add_path /opt/homebrew/bin
 
 # alias
 alias g=git
-alias ls=ls -al
+alias ls="ls -al"
