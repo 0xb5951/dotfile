@@ -44,6 +44,8 @@ cd fonts
 
 インストール後、iterm2などのフォントをpower系に変更する。
 
+set -Uで現在反映されている設定一覧を確認できる
+
 #### 参考文献
 
 <https://vlike-vlife.netlify.app/posts/dotfiles_fish_fisher>
