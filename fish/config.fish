@@ -6,7 +6,3 @@ end
 
 # PATH系
 fish_add_path /opt/homebrew/bin
-
-# alias
-alias g=git
-alias ls="ls -al"
