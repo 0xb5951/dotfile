@@ -17,3 +17,8 @@ for f in .??*; do
 
     ln -snfv ~/dotfiles/"$f" ~/
 done
+
+# fishの設定を.config配下に反映
+rm -rd ~/.config/fish
+ln -sf ~/www/private/dotfiles/fish ~/.config/fish
+fish -c "curl -sL git.io/fisher | source && fisher update"
