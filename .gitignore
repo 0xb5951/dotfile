@@ -7,6 +7,7 @@
 
 ## git
 !.gitignore
+!.github/*
 
 ## fish
 !./fish/config.fish
