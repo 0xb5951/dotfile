@@ -11,9 +11,8 @@ git submodule update
 echo "start setup..."
 for f in .??*; do
     [ "$f" = ".git" ] && continue
-    [ "$f" = ".gitconfig.local.template" ] && continue
-    [ "$f" = ".require_oh-my-zsh" ] && continue
-    [ "$f" = ".gitmodules" ] && continue
+    [ "$f" = ".gitignore" ] && continue
+    [ "$f" = ".github" ] && continue
 
     ln -snfv ~/dotfiles/"$f" ~/
 done

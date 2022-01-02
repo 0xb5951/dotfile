@@ -18,7 +18,7 @@ dotfilesについては以下を参照。
 ### 管理対象
 
 - [shell(fish)の設定](#fish)
-- gitconfig
+- [git](#git)
 
 ## 設定メモ
 
@@ -53,6 +53,23 @@ set -Uで現在反映されている設定一覧を確認できる
 <https://zenn.dev/sawao/articles/0b40e80d151d6a>
 
 <https://nemoplus.hateblo.jp/entry/20090119/1232373540>
+
+### git
+
+[core]
+
+- quotepath = false : 日本語ファイルの文字化けを防ぐ
+- editor = vim : デフォルトエディタを変更
+- ignorecase = false : ファイル名の大文字、小文字を区別する
+
+[fetch]
+
+- prune = true : リモートで削除したブランチを削除する
+
+#### 参考文献
+
+<https://koirand.github.io/blog/2020/gitconfig/>
+<https://fumihumi.hatenablog.com/entry/2019/12/02/233844>
 
 ## 参考文献
 
