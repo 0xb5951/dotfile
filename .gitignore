@@ -1,0 +1,16 @@
+# 基本全てをignore
+*
+
+
+# 管理したいものをホワイトリスト形式で管理する
+!*/
+
+## git
+!.gitignore
+
+## fish
+!./fish/config.fish
+!./fish/fish_plugins
+!./fish/fish_variables
+!./fish/conf.d/alias.fish
+!./fish/conf.d/ui.fish
