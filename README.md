@@ -32,6 +32,8 @@ fishに加えて、fisherでプラグインを管理している。
 
 fisherで管理しているプラグインは、パッケージ一覧である`fish_plugins`のみを管理している。
 
+fish では~/.config/fish/conf.d/*.fish は全部設定ファイルとして読み込まれるので、適切な単位で分割する。
+
 fishのプラグインによる文字化け解消のため、Powerline Fontを入れている。
 
 ```shell
