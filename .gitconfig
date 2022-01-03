@@ -15,7 +15,7 @@
     st = status
     co = checkout
     di = diff
-    br = branch -b
+    br = checkout -b
     puh = push origin head
     cm = commit
     com = commit -m
