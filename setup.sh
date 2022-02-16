@@ -14,7 +14,7 @@ for f in .??*; do
     [ "$f" = ".gitignore" ] && continue
     [ "$f" = ".github" ] && continue
 
-    ln -snfv ~/dotfiles/"$f" ~/
+    ln -snfv ~/www/private/dotfiles/"$f" ~/
 done
 
 # fishの設定を.config配下に反映
