@@ -14,11 +14,10 @@ for f in .??*; do
     [ "$f" = ".gitignore" ] && continue
     [ "$f" = ".github" ] && continue
 
-    ln -snfv ~/www/private/dotfiles/"$f" ~/
+    ln -snfv $THIS_DIR/"$f" ~/
 done
 
 # fishの設定を.config配下に反映
 rm -rd ~/.config/fish
-ln -sf ~/www/private/dotfiles/fish ~/.config/fish
-curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher
-fisher update
+ln -sf $THIS_DIR/fish ~/.config/fish
+curl https://git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fish
