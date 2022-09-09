@@ -6,6 +6,7 @@ end
 fish_add_path /opt/homebrew/bin
 fish_add_path /Users/mike/development/flutter/bin
 fish_add_path /usr/local/texlive/2021basic/bin
+fish_add_path /usr/local/bin
 
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/Users/mike/google-cloud-sdk/path.fish.inc' ]; . '/Users/mike/google-cloud-sdk/path.fish.inc'; end
